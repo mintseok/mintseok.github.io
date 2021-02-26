@@ -1,0 +1,207 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color:#000;
+}
+
+/*Intro page*/
+.intro{
+    width:100%;
+    height:960px;
+    background: white;
+}
+
+.header{
+    display:flex;
+    width:100%;
+    height:120px;
+    margin:auto;
+    background:rgba(41, 128, 185, 0.5);
+}
+
+.nav_head{
+    width:400px;
+    margin: 20px 0px 0px 200px;
+    justify-content: center;
+    display:flex;
+    background: rgba(41, 128, 185,);
+    font-weight:bold;
+    font-size: 45px;
+}
+
+.nav{
+    width:calc(1500px - 400px);
+    margin: 30px 200px 0px 0px;
+    display:flex;
+    justify-content: flex-end;
+    background: rgba(41, 128, 185, );
+    font-weight:bold;
+    font-size: 30px;
+}
+
+.nav > li{
+    margin-left: 100px;
+}
+
+.body0{    
+    display: flex;
+    width:100%;
+    height:820px;
+    margin: auto;
+    background:white;
+}
+
+.about{
+
+    width:calc(1920px - 630px);
+    height:820px;
+    margin: 50px 0px 0px 200px;
+}
+
+.me_at_hangang{
+    display: inline;
+    width:630px;
+    margin:0px 100px 0px 0px;
+    display:flex;
+}
+
+/*CMD page*/
+.CMD{
+    width:100%;
+    height:960px;
+    background:white;
+}
+
+.CMD_header{
+    width:100%;
+    height:300px;
+    margin:50px auto;
+    background: white;
+}
+
+.C_header{
+    width:660px;
+    height: 100px;
+    margin: 200px 0px 50px 200px;
+    background: white;
+}
+.C_header > h1{
+    font-size: 50px;;
+}
+
+.studied{
+    display:flex;
+    width:100%;
+    height:600px;
+    margin:0px 30px 0px 30px;
+    justify-content:space-around;
+    background: white;
+}
+
+.studied > h1{
+    font-size: 40px;
+}
+
+.machine{
+    width: 400px;
+    height: 250px;
+}
+.deep{
+    width: 400px;
+    height: 250px;
+}
+.web{
+    width: 400px;
+    height: 250px;
+}
+
+/*Trip page*/
+.TRIP{
+    width:100%;
+    height:960px;
+    margin: 0px 0px;
+    background: white;
+    position: relative;    
+}
+
+.Nah_Trang{  
+    width: 1500px;  
+    margin: 0px 0px;
+}
+
+.Nah_text{
+    width:510px;
+    margin: 50px;
+    position: absolute;
+    top: 13%;
+    left: 25%;
+    transform: translate( -30%,-10%);
+    
+}
+.Nah_text > h1{
+    font-size: 90px;
+    color: rgb(224, 239, 255);
+}
+
+/*Goals page*/
+.GOALS{
+    width:100%;
+    height:960px;
+    background: white;
+}
+
+.G_top{    
+    width:1500px;
+    height: 250px;
+    margin: 90px auto;
+}
+
+.top_text{
+    width: 700px;
+    height:100px;
+    margin: 0px 0px 0px 150px;
+    font-size: 50px;
+}
+
+.G_bot{
+    width:1500px;
+    height: 500px;
+    margin: 10px auto;
+}
+
+.b_top{    
+    display:flex;
+    width:1500px;
+    height:150px;
+    margin:30px auto;
+    justify-content:space-around;
+    background: white;
+}
+.b_bot{
+    display:flex;
+    width:1500px;
+    height:150px;
+    margin:90px auto;
+    justify-content:space-around;
+    background: white;
+}
+
+.t_Expert{
+    width: 400px;
+    height: 150px;
+}
+.t_Good{
+    width: 400px;
+    height: 150px;
+}
+.b_Expert{
+    width: 400px;
+    height: 150px;
+}
+.b_Travel{
+    width: 400px;
+    height: 150px;
+}
